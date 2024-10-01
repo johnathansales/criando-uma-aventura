@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>A Cidade Perdida</title>
+</head>
+<body>
+   <main>
+    <div class="passo ativo" id="passo-0">
+        <img src="img/passo00-cidade.perdida.jpg" alt="">
+        <p>Você está na biblioteca da sua escola e encontra um mapa antigo que leva a uma cidade perdida cheia de riquezas e segredos.</p>
+        <button class="btn-proximo" data-proximo="1">Decidir seguir o mapa</button>
+        <button class="btn-proximo" data-proximo="2">Ignorar o mapa e voltar para casa</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Você decide seguir o mapa e parte em direção ao Rio de Janeiro, onde a primeira pista está escondida.</p>
+        <button class="btn-proximo" data-proximo="3">Procurar a pista no Corcovado</button>
+        <button class="btn-proximo" data-proximo="4">Procurar a pista no Pão de Açúcar</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>Você ignora o mapa e decide voltar para casa. Mas durante a noite, você começa a sonhar com a cidade perdida.</p>
+        <button class="btn-proximo" data-proximo="5">Mudar de ideia e seguir o mapa</button>
+        <button class="btn-proximo" data-proximo="6">Esquecer o sonho e seguir sua vida normal</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>No Corcovado, você encontra uma inscrição antiga na base da estátua. Ela aponta para um novo local no centro da cidade.</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para o centro da cidade</button>
+        <button class="btn-proximo" data-proximo="8">Explorar mais a área ao redor</button>
+    </div>
+    <div class="passo" id="passo-4">
+        <p>Você encontra uma inscrição oculta perto do teleférico que leva ao Pão de Açúcar. A inscrição menciona um próximo destino em Pernambuco.</p>
+        <button class="btn-proximo" data-proximo="9">Ir para Pernambuco</button>
+        <button class="btn-proximo" data-proximo="10">Ficar no Rio de Janeiro para explorar mais</button>
+    </div>
+    <div class="passo" id="passo-5">
+        <p>Decidido a não deixar o mistério passar, você parte para o Rio de Janeiro para encontrar a primeira pista.</p>
+        <button class="btn-proximo" data-proximo="3">Procurar a pista no Corcovado</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <img src="img/passo06-esquecero.sonhodacidadeperdida.jpg" alt="">
+        <p>Você decide esquecer o sonho e seguir sua vida normal. A cidade perdida permanece um mistério.</p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar a Aventura</button>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>No centro da cidade, você descobre uma loja de antiguidades que guarda segredos sobre a cidade perdida.</p>
+        <button class="btn-proximo" data-proximo="11">Explorar a loja</button>
+        <button class="btn-proximo" data-proximo="12">Falar com o dono da loja para mais informações</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <p>Ao explorar mais a área ao redor do Corcovado, você encontra um livro que menciona uma expedição a uma ilha distante.</p>
+        <button class="btn-proximo" data-proximo="9">Ir para Pernambuco</button>
+        <button class="btn-proximo" data-proximo="10">Ficar no Rio de Janeiro para explorar mais</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>Você viaja para Pernambuco e descobre que a cidade perdida pode estar escondida no sertão.</p>
+        <button class="btn-proximo" data-proximo="11">Procurar pistas no sertão</button>
+        <button class="btn-proximo" data-proximo="12">Investigar histórias antigas locais</button>
+    </div>
+    <div class="passo" id="passo-10">
+        <p>Você decide explorar mais o Rio de Janeiro, mas não encontra novas pistas. Talvez tenha que ir para Pernambuco para continuar sua busca.</p>
+        <button class="btn-proximo" data-proximo="9">Ir para Pernambuco</button>
+    </div>
+    <div class="passo" id="passo-11">
+        <p>Depois de uma longa jornada, você finalmente encontra um objeto antigo com um enigma inscrito nele. Esse enigma é a chave para descobrir a localização da cidade perdida. Você sente que está perto do fim, mas o desafio final está à sua frente.</p>
+        <button class="btn-proximo" data-proximo="17">Tentar decifrar o Enigma Final</button>
+        <button class="btn-proximo" data-proximo="21">Ignorar o Enigma e continuar sua busca por outro caminho</button>
+    </div>
+    <div class="passo" id="passo-12">
+        <p>O dono da loja revela que ele faz parte de uma antiga sociedade que protege o segredo da cidade perdida. Ele oferece sua ajuda para que você encontre a cidade.</p>
+        <button class="btn-proximo" data-proximo="13">Aceitar a ajuda do dono da loja</button>
+        <button class="btn-proximo" data-proximo="14">Recusar a ajuda e tentar decifrar o enigma sozinho</button>
+    </div>
+    <div class="passo" id="passo-13">
+        <img src="img/passo13-descobertacomodono.jpg" alt="">
+        <p>Juntos, vocês decifram o enigma com as informações que ele compartilhou e descobrem a localização da cidade perdida. Com sua ajuda, você chega a uma entrada secreta, cheia de maravilhas e riquezas.</p>
+        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p>Parabéns! Você encontrou a cidade perdida com a ajuda do dono da loja.</p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar a Aventura</button>
+    </div>
+    <div class="passo" id="passo-14">
+        <p>Você decide confiar em sua intuição e habilidades para resolver o enigma por conta própria. Após analisar o objeto antigo, você percebe que a chave pode estar nas histórias que ouviu durante a jornada.</p>
+        <button class="btn-proximo" data-proximo="15">Tentar decifrar o enigma usando as pistas que você coletou</button>
+        <button class="btn-proximo" data-proximo="16">Desistir e pedir ajuda ao dono da loja</button>
+    </div>
+    <div class="passo" id="passo-15">
+        <img src="img/passo15-acidadeperdida.sozinho.jpg" alt="">
+        <p>Depois de refletir sobre as histórias que ouviu, você conecta os pontos e faz uma descoberta crucial que o leva a entender o enigma.</p>
+        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p>Parabéns! Você finalmente decifrou o enigma e encontrou a entrada para a cidade perdida!</p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar a Aventura</button>
+    </div>
+    <div class="passo" id="passo-16">
+        <p>Após várias tentativas frustradas, fica evidente que é hora de pedir ajuda. Você volta à loja e se encontra novamente com o dono. Ele está disposto a ajudá-lo a resolver o enigma.</p>
+        <button class="btn-proximo" data-proximo="13">Aceitar a ajuda do dono da loja</button>
+    </div>
+    <div class="passo" id="passo-17">
+        <p>Você se encontra diante do enigma mais desafiador de toda a sua jornada. Decifrar o enigma levará você diretamente à cidade perdida, mas o tempo está contra você. O que você fará?</p>
+        <button class="btn-proximo" data-proximo="18">Decifrar o enigma sozinho</button>
+        <button class="btn-proximo" data-proximo="19">Pedir ajuda ao sábio do sertão</button>
+        <button class="btn-proximo" data-proximo="20">Desistir do Enigma</button>
+    </div>
+    <div class="passo" id="passo-18">
+        <img src="img/passo18-acidadeperdida.jpg" alt="">
+        <p>Você decide enfrentar o enigma sozinho, confiando em suas habilidades. Após horas de reflexão, você resolve o quebra-cabeça e descobre a localização exata da cidade perdida. Em uma jornada épica, você finalmente chega às suas ruínas antigas, encontrando tesouros e segredos que mudam a história para sempre.</p>
+        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p>Parabéns! Você encontrou a cidade perdida e resolveu o mistério com sucesso.</p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar a Aventura</button>
+    </div>
+    <div class="passo" id="passo-19">
+        <img src="img/passo19-jornadacompartilhada.jpg" alt="">
+        <p>Percebendo a dificuldade do enigma, você decide pedir ajuda ao sábio do sertão. Juntos, vocês decifram o enigma e, com a ajuda de seu novo aliado, chegam à localização da cidade perdida. Ao entrar nas ruínas, você percebe que parte dos segredos será compartilhada, mas a aventura valeu a pena.</p>
+        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p>Você encontrou a cidade perdida, mas a jornada foi compartilhada. Parabéns por concluir a aventura!</p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar a Aventura</button>
+    </div>
+    <div class="passo" id="passo-20">
+        <img src="img/passo20-desistenciadoenigma.jpg" alt="">
+        <p>O enigma se mostrou complexo demais, e o peso da jornada fez você desistir. A cidade perdida permanece um mistério, e a lenda vive para enganar futuros exploradores.</p>
+        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p>Você desistiu da aventura. A cidade perdida continua oculta.</p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar a Aventura</button>
+    </div>
+    <div class="passo" id="passo-21">
+        <img src="img/passo21-encerramentoporestaca0.jpg" alt="">
+        <p>Decidindo ignorar o enigma, você opta por explorar outra parte da cidade. No entanto, após várias horas de busca, você percebe que todas as pistas levam de volta ao enigma. Sem resolvê-lo, você não poderá avançar.</p>
+        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p>Você encerra sua busca sem encontrar a cidade perdida.</p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar a Aventura</button>
+    </div>
+   </main>
+   <script src="script.js"></script>
+   
+    
+</body>
+</html>
